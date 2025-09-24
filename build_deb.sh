@@ -48,7 +48,7 @@ Section: utils
 Priority: optional
 Architecture: all
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0, libimobiledevice-utils, ifuse
-Maintainer: iPhone Photo Manager <developer@example.com>
+Maintainer: iPhone Photo Manager <https://github.com/dida-code>
 Description: iPhone Photo Manager - GTK4 application for accessing iPhone photos
  A modern GTK4/LibAdwaita application for accessing and downloading photos
  from iPhone devices using libimobiledevice on Linux systems.
@@ -62,7 +62,7 @@ Description: iPhone Photo Manager - GTK4 application for accessing iPhone photos
   * Theme selection (dark/light)
   * Persistent settings
   * Modern GTK4/LibAdwaita interface
-Homepage: https://github.com/yourusername/iphone-photo-manager
+Homepage: https://github.com/dida-code/iphone-photo-manager.git
 EOF
 
 echo "=== Creating postinst script ==="
@@ -376,10 +376,10 @@ cat > usr/share/doc/iphone-photo-manager/copyright << 'EOF'
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: iphone-photo-manager
 Upstream-Contact: iPhone Photo Manager Team <developer@example.com>
-Source: https://github.com/yourusername/iphone-photo-manager
+Source: https://github.com/dida-code/iphone-photo-manager.git
 
 Files: *
-Copyright: 2024 iPhone Photo Manager Team <developer@example.com>
+Copyright: 2025 iPhone Photo Manager Team <https://github.com/dida-code>
 License: GPL-3+
 
 License: GPL-3+
